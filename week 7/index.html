@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Animation </h1>
+        <p class="subtitle">Combining CSS3 animations with JavaScript functions</p>
+    </header>
+    
+    <div class="gallery">
+        <div class="card animated fadeIn" style="animation-delay: 0.1s;">
+            <div class="card-header">
+                <img src="images/image1.jpg" alt="Mountain View" class="card-img">
+            </div>
+            <div class="card-content">
+                <h3 class="card-title">Mountain Escape</h3>
+                <p class="card-description">Experience the breathtaking views of majestic mountains and serene landscapes.</p>
+                <button class="btn btn-primary">Explore</button>
+            </div>
+        </div>
+        
+        <div class="card animated fadeIn" style="animation-delay: 0.2s;">
+            <div class="card-header">
+                <img src="images/image2.jpg" alt="Forest" class="card-img">
+            </div>
+            <div class="card-content">
+                <h3 class="card-title">Forest Adventure</h3>
+                <p class="card-description">Get lost in the beauty of dense forests and discover hidden natural wonders.</p>
+                <button class="btn btn-primary">Explore</button>
+            </div>
+        </div>
+        
+        <div class="card animated fadeIn" style="animation-delay: 0.3s;">
+            <div class="card-header">
+                <img src="images/image3.jpg" alt="Beach" class="card-img">
+            </div>
+            <div class="card-content">
+                <h3 class="card-title">Be Paradise</h3>
+                <p class="card-description">you can use java for interactivity of web site.</p>
+                <button class="btn btn-primary">Explore</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="controls">
+        <h2 class="controls-title">Animation Controls</h2>
+        <div class="control-buttons">
+            <button class="control-btn btn-pulse" id="pulseBtn">Pulse Animation</button>
+            <button class="control-btn btn-shake" id="shakeBtn">Shake Animation</button>
+            <button class="control-btn btn-flip" id="flipBtn">Flip Animation</button>
+            <button class="control-btn btn-reset" id="resetBtn">Reset All</button>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Interactive Animation </p>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
